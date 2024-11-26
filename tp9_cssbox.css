@@ -1,0 +1,33 @@
+/* Estilos comunes */
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: #f4f4f4;
+  }
+  
+  .contenedor {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 30px;
+    border: 2px solid #ccc;
+    padding: 10px;
+    background-color: #fff;
+  }
+  
+  .tarjeta {
+    background-color: #6b0ea1;
+    padding: 20px;
+    text-align: center;
+    flex: 1;
+    border-radius: 8px;
+  }
+  
+  /* Ejercicio 1: Centrando tarjetas */
+  .ejercicio1 {
+    justify-content: center; /* Centra las tarjetas horizontalmente */
+    align-items: center;     /* Centra las tarjetas verticalmente */
+    height: 300px; /* Altura del contenedor para ver el centrado */
+  }
+  
+
+  
